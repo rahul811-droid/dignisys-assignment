@@ -1,7 +1,7 @@
 import React from 'react';
 import compnylogo from '../assets/compnylogo.png';
 import { SlEnvolope } from 'react-icons/sl';
-import { IoCallOutline } from 'react-icons/io5';
+import { IoCall, IoCallOutline, IoMail } from 'react-icons/io5';
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
@@ -59,9 +59,9 @@ const Footer = () => {
               <p className="text-sm mt-1">Digrisys, Inc.</p>
               <p className="text-sm">@ The Green STE R, Dover, DE 19901</p>
               <div className="flex gap-2 mt-1">
-                <SlEnvolope color='#F59E0B' size={24} className='border border-gray-400 rounded-full p-1 ' />
+                <IoMail color='#F59E0B' size={24} className='border border-gray-400 rounded-full p-1 ' />
                 <p className="text-sm">contact@digrisys.com</p>
-              <IoCallOutline color='#F59E0B' size={24} className='border border-gray-400 rounded-full p-1 '/>
+              <IoCall  color='#F59E0B' size={24} className='border border-gray-400 rounded-full p-1 '/>
                 
               <p className="text-sm mt-1">+1 (512) 817-0605</p>
 
@@ -74,9 +74,9 @@ const Footer = () => {
               <p className="text-sm">A.-r.U., Tower A, Research Business Tower, Sector - 66,</p>
               <p className="text-sm">Mvtail ROODS, FUJUBB</p>
                <div className="flex gap-2 mt-1">
-                <SlEnvolope color='#F59E0B' size={24} className='border border-gray-400 rounded-full p-1 ' />
+                <IoMail color='#F59E0B' size={24} className='border border-gray-400 rounded-full p-1 ' />
                 <p className="text-sm">contact@digrisys.com</p>
-              <IoCallOutline color='#F59E0B' size={24} className='border border-gray-400 rounded-full p-1 '/>
+              <IoCall  color='#F59E0B' size={24} className='border border-gray-400 rounded-full p-1 '/>
                 
               <p className="text-sm mt-1">+1 (512) 817-0605</p>
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IoCallOutline } from 'react-icons/io5';
+import { IoCall, IoCallOutline, IoMail } from 'react-icons/io5';
 import { SlEnvolope } from 'react-icons/sl';
 import { FaArrowRight, FaBars, FaTimes } from 'react-icons/fa';
 import compnylogo from '../assets/compnylogo.png';
@@ -19,11 +19,11 @@ const Hero = () => {
         <div className='container mx-auto px-4'>
           <ul className='flex justify-end items-center gap-3 lg:gap-5 text-xs lg:text-sm'>
             <li className='flex justify-center items-center gap-1 lg:gap-2'>
-              <SlEnvolope className='text-yellow-500 text-sm lg:text-base'/>
+              <IoMail className='text-yellow-500 text-sm lg:text-base'/>
               <span className='text-gray-800'>contact@dignisys.com</span>
             </li>
             <li className='flex justify-center items-center gap-1 lg:gap-2'>
-              <IoCallOutline className='text-yellow-500 text-sm lg:text-base'/>
+              <IoCall  className='text-yellow-500 text-sm lg:text-base'/>
               <span className='text-gray-800'>US: +1 (512) 817-0605</span>
             </li>
             <li>
